@@ -1,0 +1,47 @@
+package stringEx;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class Ex2675 {
+	public static void main(String[] args) throws IOException {
+//		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+//
+//		// 전체 반복 횟수
+//		int TN = Integer.parseInt(br.readLine());
+//
+//		for (int i = 0; i < TN; i++) {
+//			// 한 줄
+//			String[] read = br.readLine().split(" ");
+//			int N = Integer.parseInt(read[0]);
+//			String[] input = read[1].split("");
+//
+//			for (int j = 0; j < input.length; j++) {
+//				for (int k = 0; k < N; k++) {
+//					System.out.print(input[j]);
+//				}
+//			}
+//			System.out.println();
+//		}
+//
+//		br.close();
+		let input = require('fs').readFileSync('/dev/stdin').toString().split('\n'); // 줄 단위로 자르기
+
+		const num1 = input.shift(); // 배열에서 첫 번재 요소를 삭제하고 그 값을 반환
+
+		for (let i = 0; i < num1; i++) {
+		    let answer = '';
+		    
+		    const [num2, str] = input[i].split(" ");
+		    
+				const str = input[i].split(" ");
+
+		    for (let j = 0; j < str.length; j++) {
+		        answer += str[j].repeat(num2); // 인자에 들어간 값 반큼 반복할 수 있다.
+		    }
+		    
+		    console.log(answer);
+		}
+	}
+}

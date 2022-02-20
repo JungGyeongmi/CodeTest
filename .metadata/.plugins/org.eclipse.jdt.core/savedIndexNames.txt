@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+D:\TempStudyCode\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+616840867.index
+59196700.index
