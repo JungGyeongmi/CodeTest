@@ -20,29 +20,24 @@ public class Ex1929 {
 
         for(int i = M; i <= N; i++) { 
             checker = true;
-			for(int j = 2; j<i; j++) {				
+			for(int j = 2; j<=Math.sqrt(i); j++) {				
+			// for(int j = 2; j<i; j++) {				
                 if(i%j==0) {
                     checker = false;
-                    System.out.println( i +" 를"+ j+" 로 나눔");
                     break;
-                    /*
-                    break 쓰고 가장 가까운 반복 벗어나려고 썼는데
-                    checker 안써주면 아래 코드까지 읽어버려서 문제임
-                    내가 잘못생각하고있나?
-                    */
                 } 
 			}
-            if(checker) {
-                bw.write(Integer.toString(i)+"\n");
-                // System.out.println(i);
-                // System.out.println("소수임" + i);
-                // result.add(i);
+            
+            if(checker && i != 1) {
+                // bw.write(Integer.toString(i)+"\n");
+                System.out.println(i);
             }
+        
         }
 
 		br.close();
-        bw.flush();
-        bw.close();
+        // bw.flush();
+        // bw.close();
 		// result.stream().forEach(System.out::println);
 		   
     }
