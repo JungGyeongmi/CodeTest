@@ -25,21 +25,21 @@ public class Ex2798 {
 
         List<Integer> resultArrayList = new ArrayList<>();
 
-        for(int i = 0; i < cardArray.length-2; i++){
-            for(int j = i+1; j < cardArray.length-1; j++){
+        for(int i = 0; i < cardArray.length; i++){
+            for(int j = i+1; j < cardArray.length; j++){
                 for(int k = j+1; k < cardArray.length; k++){
-                    // System.out.println(i+" "+j+" "+k);
-                    int sum = cardArray[i]+cardArray[j]+cardArray[k];
-                    if(sum <= maxNumber) {
-                        resultArrayList.add(sum);
-                        // System.out.println(sum);
-                    }
+                    System.out.println(i+" "+j+" "+k);
+                    // int sum = cardArray[i]+cardArray[j]+cardArray[k];
+                    // if(sum <= maxNumber) {
+                    //     resultArrayList.add(sum);
+                    //     System.out.println(sum);
+                    // }
                 }
             }
         }
 
         // 정렬
-        Collections.sort(resultArrayList, Collections.reverseOrder());
-        System.out.print(resultArrayList.get(0));
+        // Collections.sort(resultArrayList, Collections.reverseOrder());
+        // System.out.print(resultArrayList.get(0));
     }
 }
