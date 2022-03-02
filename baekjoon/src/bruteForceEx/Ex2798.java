@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.StringTokenizer;
 
@@ -22,12 +23,23 @@ public class Ex2798 {
             cardArray[i] = Integer.parseInt(st.nextToken());
         }
 
-        for(int i = 0; i < cardArray.length; i++){
-            for(int j = i+1; j < cardArray.length-i; j++){
-                System.out.println(cardArray[i]+" "+cardArray[j]+" "+cardArray[j+1]);
+        List<Integer> resultArrayList = new ArrayList<>();
+
+        for(int i = 0; i < cardArray.length-2; i++){
+            for(int j = i+1; j < cardArray.length-1; j++){
+                for(int k = j+1; k < cardArray.length; k++){
+                    // System.out.println(i+" "+j+" "+k);
+                    int sum = cardArray[i]+cardArray[j]+cardArray[k];
+                    if(sum <= maxNumber) {
+                        resultArrayList.add(sum);
+                        // System.out.println(sum);
+                    }
+                }
             }
         }
 
-
+        // 정렬
+        Collections.sort(resultArrayList, Collections.reverseOrder());
+        System.out.print(resultArrayList.get(0));
     }
 }
