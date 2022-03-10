@@ -11,7 +11,7 @@ public class Ex4948 {
     public static void main(String[] args) throws IOException {
         
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+        // BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         do {
             int n = Integer.parseInt(br.readLine());
             if(n==0) break;
@@ -33,14 +33,14 @@ public class Ex4948 {
                 }
             }
 
-            bw.write(result);
+            // bw.write(result);
             // System.out.println(result);
         } while(true);
 
         br.close();
         
-        bw.flush();
-        bw.close();
+        // bw.flush();
+        // bw.close();
     }
     
 }
