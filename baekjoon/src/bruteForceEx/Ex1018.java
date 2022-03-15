@@ -13,9 +13,9 @@ public class Ex1018 {
         int x = Integer.parseInt(st.nextToken());
         int y = Integer.parseInt(st.nextToken());
 
-        int[][] arr = {
+        // int[][] arr = 
             
         }
 
-    }
 }
+
