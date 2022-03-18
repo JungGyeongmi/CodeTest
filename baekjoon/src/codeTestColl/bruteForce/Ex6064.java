@@ -20,24 +20,21 @@ public class Ex6064 {
             y = Integer.parseInt(st.nextToken());
 
             int years = 1;
-            boolean check = true;
+            x = M==x?0:x;
+            y = N==x?0:x;
 
-            while (years % M != 0 || years % N != 0){
-                if((years - x) % M == 0 && (years - y) % N == 0) {
-                    check = false;
+            while (true){
+                if(years  % M == x && years % N == y) {
+                    System.out.println(years);
+                    break;
+                }
+                if((years % M == 0 && years % N == 0)){
+                    System.out.println("-1");
                     break;
                 }
                 years++;
             }
-            
-            if(check){
-                System.out.println("-1");
-            } else {
-                System.out.println(years);
-            }
-
         }
         br.close();
-
     }
 }
