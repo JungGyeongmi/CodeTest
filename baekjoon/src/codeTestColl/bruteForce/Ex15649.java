@@ -6,6 +6,7 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 public class Ex15649 {
+    
     public static int[] arr;
     public static boolean[] visit;
     public static StringBuilder sb = new StringBuilder();
