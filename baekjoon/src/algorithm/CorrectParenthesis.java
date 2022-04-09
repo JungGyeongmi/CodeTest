@@ -22,8 +22,10 @@ class Solution {
         for(int i = 0; i< s.length(); i++) {
             if(s.charAt(i)=='('){
                 stack.push(true);
-            } else {
+            } else if (!stack.empty()) {
                 stack.pop();
+            } else if (stack.empty() && s.charAt(i)==')') {
+                return false;
             }
         }
         return stack.empty();
