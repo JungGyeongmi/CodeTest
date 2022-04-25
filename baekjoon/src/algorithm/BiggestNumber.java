@@ -11,14 +11,10 @@ public class BiggestNumber {
 
         int n = Integer.parseInt(br.readLine());
     
-        Solution sl = new Solution();
-        
-        sl.solution(n);
+        solution(n);
     }
-}
 
-class Solution {
-    public int solution(int n) {
+    static int solution(int n) {
         int answer = 0;
         
         int count  = countNumber(n);
@@ -33,7 +29,7 @@ class Solution {
         return answer;
     }
  
-    private int countNumber (int number) {
+    private static int countNumber (int number) {
         String[] binaryNumberStrArray = Integer.toBinaryString(number).split("");
         int count = 0;
         for(int i = 0; i < binaryNumberStrArray.length; i++) {
