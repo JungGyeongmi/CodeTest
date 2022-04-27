@@ -17,5 +17,6 @@ public class Q14 {
             }
             System.out.println();
         }
+        sc.close();
     }
 }
