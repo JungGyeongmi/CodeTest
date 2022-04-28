@@ -33,16 +33,14 @@ public class KakaoHotel {
                 checker[checkRoomNum] = true;
                 System.out.println(i+"층 방 배정 완료"+answer[i]);
                 System.out.println(Arrays.toString(checker));
-                 
-                continue;
                 
+                continue;
             }
             
             for(int j = checkRoomNum + 1; j < k; j++ ) {
                 
                 System.out.println("원하는 층 찾기");
                 
-                System.out.println(Arrays.toString(checker));
                 if(!checker[j]) {
                     
                     answer[i] = j;
@@ -50,11 +48,11 @@ public class KakaoHotel {
                     
                     System.out.println("j = "+j);
                     System.out.println(Arrays.toString(checker));
+                    System.out.println(j+"층 방 배정 완료"+answer[i]);
                     break;
             
                 }
             }
-
         }
 
         return answer;

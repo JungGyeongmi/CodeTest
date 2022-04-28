@@ -25,7 +25,7 @@ public class Q3 {
         for (int i = 0; i < arr.length; i++) {
             for(int j = i+1; j < arr.length; j++) {
                 int gcd = EuclidGCD(arr[i], arr[j]);
-                System.out.println(arr[i] + "과 " + arr[j] +"의 최대공배수" + gcd);
+                System.out.println(arr[i] + "과 " + arr[j] +"의 최대공약수" + gcd);
             }
         }
     }

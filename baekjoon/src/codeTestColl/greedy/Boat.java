@@ -1,44 +1,45 @@
 package codeTestColl.greedy;
 
 import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.Queue;
 
 public class Boat {
     public static void main(String[] args) {
-        int[] people = {70, 80, 50};
+        int[] people = {20, 40, 50, 50, 50, 60, 70};
+        // int[] people = {20, 40, 50, 50, 50, 60, 70};
         // int[] people = {70, 50, 80, 50};
         int limit = 100;
-        solution(people, limit);
+        System.out.println(solution(people, limit));
     }
     
-    static int solution(int[] people, int limit) {
-        int answer = 0;
-        boolean[] checker = new boolean[people.length];
-
+    public static int solution(int[] people,int limit) {
+        Queue<Integer> pp = new LinkedList<>();
         Arrays.sort(people);
-
-        while(Arrays.toString(checker).indexOf("false") != -1){
-            int peopleSum = 0;
-            for(int i = people.length-1; i >= 0; i -- ) {
-                
-                if(!checker[i]) {
-    
-                    if(peopleSum + people[i] <= limit) {
-                        peopleSum += people[i];
-                        checker[i] = true;
-                    }
-                    
-                    System.out.println("people[i] = " + people[i]);
-                    System.out.println("i = " + i);
-                    System.out.println(peopleSum);
-                    System.out.println(Arrays.toString(checker));
-                    continue;
-                    
-                }
-            }
-            answer ++;
-            System.out.println("answer "+answer);
+        for(int person : people ){
+            pp.offer(person);
         }
 
-        return answer;
+        int count = 0;
+
+        while(pp.size()>1) {
+            int p1 = pp.poll();
+            count ++;
+
+            for(int p : pp) {
+                if(p1 + p == limit) {
+                    pp.remove();
+                    System.out.println(p);
+                    break;
+                }
+            }
+
+            if(p1 + pp.peek() < limit) {
+                System.out.println(pp.peek());
+                pp.remove();
+            }
+        }
+
+        return count+1;
     }
 }
