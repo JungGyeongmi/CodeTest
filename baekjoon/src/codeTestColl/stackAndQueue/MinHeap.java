@@ -29,7 +29,6 @@ public class MinHeap {
                 continue;
 
             } else {
-                
                 heap.offer(inputValue);
             } 
 
