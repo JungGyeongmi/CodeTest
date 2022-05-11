@@ -1,0 +1,672 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch BiggestNumber",
+            "request": "launch",
+            "mainClass": "algorithm.BiggestNumber",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch BiggestNumber2",
+            "request": "launch",
+            "mainClass": "algorithm.BiggestNumber2",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch CorrectParenthesis",
+            "request": "launch",
+            "mainClass": "algorithm.CorrectParenthesis",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex1011",
+            "request": "launch",
+            "mainClass": "basicMathEx1.Ex1011",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex10250",
+            "request": "launch",
+            "mainClass": "basicMathEx1.Ex10250",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex10757",
+            "request": "launch",
+            "mainClass": "basicMathEx1.Ex10757",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex1193",
+            "request": "launch",
+            "mainClass": "basicMathEx1.Ex1193",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex1712",
+            "request": "launch",
+            "mainClass": "basicMathEx1.Ex1712",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex2292",
+            "request": "launch",
+            "mainClass": "basicMathEx1.Ex2292",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex2775",
+            "request": "launch",
+            "mainClass": "basicMathEx1.Ex2775",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex2839",
+            "request": "launch",
+            "mainClass": "basicMathEx1.Ex2839",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex2869",
+            "request": "launch",
+            "mainClass": "basicMathEx1.Ex2869",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex1085",
+            "request": "launch",
+            "mainClass": "basicMathEx2.Ex1085",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex1929",
+            "request": "launch",
+            "mainClass": "basicMathEx2.Ex1929",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex3009",
+            "request": "launch",
+            "mainClass": "basicMathEx2.Ex3009",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex3053",
+            "request": "launch",
+            "mainClass": "basicMathEx2.Ex3053",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex4153",
+            "request": "launch",
+            "mainClass": "basicMathEx2.Ex4153",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex4948",
+            "request": "launch",
+            "mainClass": "basicMathEx2.Ex4948",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Prime_1",
+            "request": "launch",
+            "mainClass": "basicMathEx2.Prime_1",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex1018",
+            "request": "launch",
+            "mainClass": "bruteForceEx.Ex1018",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex1436",
+            "request": "launch",
+            "mainClass": "bruteForceEx.Ex1436",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex2231",
+            "request": "launch",
+            "mainClass": "bruteForceEx.Ex2231",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex7568",
+            "request": "launch",
+            "mainClass": "bruteForceEx.Ex7568",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex14500",
+            "request": "launch",
+            "mainClass": "codeTestColl.bruteForce.Ex14500",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex1476",
+            "request": "launch",
+            "mainClass": "codeTestColl.bruteForce.Ex1476",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex15649",
+            "request": "launch",
+            "mainClass": "codeTestColl.bruteForce.Ex15649",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex15651",
+            "request": "launch",
+            "mainClass": "codeTestColl.bruteForce.Ex15651",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex15654",
+            "request": "launch",
+            "mainClass": "codeTestColl.bruteForce.Ex15654",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex15656",
+            "request": "launch",
+            "mainClass": "codeTestColl.bruteForce.Ex15656",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex1748",
+            "request": "launch",
+            "mainClass": "codeTestColl.bruteForce.Ex1748",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex18290",
+            "request": "launch",
+            "mainClass": "codeTestColl.bruteForce.Ex18290",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex6064",
+            "request": "launch",
+            "mainClass": "codeTestColl.bruteForce.Ex6064",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex9095",
+            "request": "launch",
+            "mainClass": "codeTestColl.bruteForce.Ex9095",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Archery",
+            "request": "launch",
+            "mainClass": "codeTestColl.dfs.Archery",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Boat",
+            "request": "launch",
+            "mainClass": "codeTestColl.greedy.Boat",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch CantorSet",
+            "request": "launch",
+            "mainClass": "codeTestColl.recursion.CantorSet",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch CantorSet2",
+            "request": "launch",
+            "mainClass": "codeTestColl.recursion.CantorSet2",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch KakaoHotel",
+            "request": "launch",
+            "mainClass": "codeTestColl.recursion.KakaoHotel",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch KakaoHotelRecur",
+            "request": "launch",
+            "mainClass": "codeTestColl.recursion.KakaoHotelRecur",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch ThueMorseString",
+            "request": "launch",
+            "mainClass": "codeTestColl.recursion.ThueMorseString",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Tree",
+            "request": "launch",
+            "mainClass": "codeTestColl.recursion.Tree",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Tree2",
+            "request": "launch",
+            "mainClass": "codeTestColl.recursion.Tree2",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch WhatIs",
+            "request": "launch",
+            "mainClass": "codeTestColl.recursion.WhatIs",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch chickenCoupon",
+            "request": "launch",
+            "mainClass": "codeTestColl.recursion.chickenCoupon",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch BubbleSort",
+            "request": "launch",
+            "mainClass": "codeTestColl.sort_test.BubbleSort",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch MergeSort",
+            "request": "launch",
+            "mainClass": "codeTestColl.sort_test.MergeSort",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Card2",
+            "request": "launch",
+            "mainClass": "codeTestColl.stackAndQueue.Card2",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Josephus",
+            "request": "launch",
+            "mainClass": "codeTestColl.stackAndQueue.Josephus",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinHeap",
+            "request": "launch",
+            "mainClass": "codeTestColl.stackAndQueue.MinHeap",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Parentheses",
+            "request": "launch",
+            "mainClass": "codeTestColl.stackAndQueue.Parentheses",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch ScovilleGauge",
+            "request": "launch",
+            "mainClass": "codeTestColl.stackAndQueue.ScovilleGauge",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch ScovilleGauge2",
+            "request": "launch",
+            "mainClass": "codeTestColl.stackAndQueue.ScovilleGauge2",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Zero",
+            "request": "launch",
+            "mainClass": "codeTestColl.stackAndQueue.Zero",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q1",
+            "request": "launch",
+            "mainClass": "doitAlgorithm.page170.Q1",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q2",
+            "request": "launch",
+            "mainClass": "doitAlgorithm.page170.Q2",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q3",
+            "request": "launch",
+            "mainClass": "doitAlgorithm.page170.Q3",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q4",
+            "request": "launch",
+            "mainClass": "doitAlgorithm.page174.Q4",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q5",
+            "request": "launch",
+            "mainClass": "doitAlgorithm.page174.Q5",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q6",
+            "request": "launch",
+            "mainClass": "doitAlgorithm.page174.Q6",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q7",
+            "request": "launch",
+            "mainClass": "doitAlgorithm.page174.Q7",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q1(1)",
+            "request": "launch",
+            "mainClass": "doitAlgorithm.page204.Q1",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q2(1)",
+            "request": "launch",
+            "mainClass": "doitAlgorithm.page204.Q2",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q3(1)",
+            "request": "launch",
+            "mainClass": "doitAlgorithm.page206.Q3",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q4(1)",
+            "request": "launch",
+            "mainClass": "doitAlgorithm.page22.Q4",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q12",
+            "request": "launch",
+            "mainClass": "doitAlgorithm.page38.Q12",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q13",
+            "request": "launch",
+            "mainClass": "doitAlgorithm.page38.Q13",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q14",
+            "request": "launch",
+            "mainClass": "doitAlgorithm.page38.Q14",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q15",
+            "request": "launch",
+            "mainClass": "doitAlgorithm.page40.Q15",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q16",
+            "request": "launch",
+            "mainClass": "doitAlgorithm.page40.Q16",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q17",
+            "request": "launch",
+            "mainClass": "doitAlgorithm.page40.Q17",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex10870",
+            "request": "launch",
+            "mainClass": "recursiveEx.Ex10870",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex10872",
+            "request": "launch",
+            "mainClass": "recursiveEx.Ex10872",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex11729",
+            "request": "launch",
+            "mainClass": "recursiveEx.Ex11729",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex2447",
+            "request": "launch",
+            "mainClass": "recursiveEx.Ex2447",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex10814",
+            "request": "launch",
+            "mainClass": "sortEx.Ex10814",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex10989",
+            "request": "launch",
+            "mainClass": "sortEx.Ex10989",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex11650",
+            "request": "launch",
+            "mainClass": "sortEx.Ex11650",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex11651",
+            "request": "launch",
+            "mainClass": "sortEx.Ex11651",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex1181",
+            "request": "launch",
+            "mainClass": "sortEx.Ex1181",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex1427",
+            "request": "launch",
+            "mainClass": "sortEx.Ex1427",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex18870",
+            "request": "launch",
+            "mainClass": "sortEx.Ex18870",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex2108",
+            "request": "launch",
+            "mainClass": "sortEx.Ex2108",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex2750",
+            "request": "launch",
+            "mainClass": "sortEx.Ex2750",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex2751",
+            "request": "launch",
+            "mainClass": "sortEx.Ex2751",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex10809",
+            "request": "launch",
+            "mainClass": "stringEx.Ex10809",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex1152",
+            "request": "launch",
+            "mainClass": "stringEx.Ex1152",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex1157",
+            "request": "launch",
+            "mainClass": "stringEx.Ex1157",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex11654",
+            "request": "launch",
+            "mainClass": "stringEx.Ex11654",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex1316",
+            "request": "launch",
+            "mainClass": "stringEx.Ex1316",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex2675",
+            "request": "launch",
+            "mainClass": "stringEx.Ex2675",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex2908",
+            "request": "launch",
+            "mainClass": "stringEx.Ex2908",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex5622",
+            "request": "launch",
+            "mainClass": "stringEx.Ex5622",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex1748(1)",
+            "request": "launch",
+            "mainClass": "testEx.Ex1748",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestCode",
+            "request": "launch",
+            "mainClass": "testEx.TestCode",
+            "projectName": "baekjoon"
+        }
+    ]
+}
