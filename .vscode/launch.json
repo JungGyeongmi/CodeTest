@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Q6",
+            "request": "launch",
+            "mainClass": "doitAlgorithm.page216.Q6",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q5",
+            "request": "launch",
+            "mainClass": "doitAlgorithm.page208.Q5",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
