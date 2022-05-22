@@ -16,7 +16,9 @@ public class MergeSort {
         
         int frontIdx = start; // 앞 부분 인덱스
         int lastIdx = mid+1; // 뒷 부분 인덱스
+
         int i = 0;
+        
         while(frontIdx <= mid || lastIdx <= end) {
             sorted[i++] = a[frontIdx++];
         }

@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch NumberSort",
+            "request": "launch",
+            "mainClass": "codeTestColl.sort_test.NumberSort",
+            "projectName": "baekjoon"
+        },
+        {
+            "type": "java",
             "name": "Launch Q6",
             "request": "launch",
             "mainClass": "doitAlgorithm.page216.Q6",

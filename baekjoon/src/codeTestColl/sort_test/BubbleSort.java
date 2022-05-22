@@ -10,19 +10,31 @@ public class BubbleSort {
     static int count = 0;
 
     public static void main(String[] args) throws IOException {
+        long start = System.currentTimeMillis();
+        int sum = 0;
+		for(int i=1; i<=1000000; i++){
+			sum += i;
+		}  
+      
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st;
         int N = Integer.parseInt(br.readLine());
+
+      
 
         int[] arr = new int[N];
         
         st = new StringTokenizer(br.readLine());
         
         br.close();
-        
+
+
+		System.out.println("합계 : "+sum);
+
         for (int i = 0; i < arr.length; i++) {
             arr[i] = Integer.parseInt(st.nextToken());
         }
+
         int countingrepeat = 0;
         for (int j = 0; j < arr.length; j++) {
             boolean breaker = true;
@@ -46,7 +58,8 @@ public class BubbleSort {
         }
 
         System.out.println(count);
-        System.out.println(countingrepeat);
+        long end = System.currentTimeMillis(); //프로그램이 끝나는 시점 계산
+		System.out.println("프로그램 실행시간 : " + (end - start)/1000.0 +"초");
     }
 }
 
